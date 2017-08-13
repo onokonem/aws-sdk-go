@@ -600,7 +600,7 @@ func (c *Route53) CreateHostedZoneRequest(input *CreateHostedZoneInput) (req *re
 //    (http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/SOA-NSrecords.html)
 //    in the Amazon Route 53 Developer Guide.
 //
-// If you want to use the same name servers for multiple hosted zones, you can
+//    If you want to use the same name servers for multiple hosted zones, you can
 //    optionally associate a reusable delegation set with the hosted zone. See
 //    the DelegationSetId element.
 //
@@ -3443,7 +3443,7 @@ func (c *Route53) ListHostedZonesByNameRequest(input *ListHostedZonesByNameInput
 //    * If the value of IsTruncated in the response is true, there are more
 //    hosted zones associated with the current AWS account.
 //
-// If IsTruncated is false, this response includes the last hosted zone that
+//    If IsTruncated is false, this response includes the last hosted zone that
 //    is associated with the current account. The NextDNSName element and NextHostedZoneId
 //    elements are omitted from the response.
 //
